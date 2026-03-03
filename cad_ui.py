@@ -11,9 +11,6 @@ from PIL import Image
 from sentence_transformers import SentenceTransformer, util
 import numpy as np
 
-SUPABASE_URL = "https://nhuwmvuxihqruajlycvm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5odXdtdnV4aWhxcnVhamx5Y3ZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkxMDAyNjcsImV4cCI6MjA4NDY3NjI2N30.56S7hlbs1F8DCyzSfCKoPl-HilbmQsR2h-vi9SVTW_0"  # Replace with your key
-
 SUPPORTED_MESH = ["stl", "obj"]
 SUPPORTED_STEP = ["step", "stp"]
 SUPPORTED_IMAGE = ["png", "jpg", "jpeg"]
