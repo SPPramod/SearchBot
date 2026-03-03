@@ -9,10 +9,6 @@ import mimetypes
 # ---------------------------
 # CONFIG
 # ---------------------------
-SUPABASE_URL = "https://nhuwmvuxihqruajlycvm.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5odXdtdnV4aWhxcnVhamx5Y3ZtIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkxMDAyNjcsImV4cCI6MjA4NDY3NjI2N30.56S7hlbs1F8DCyzSfCKoPl-HilbmQsR2h-vi9SVTW_0"
-
-GEMINI_API_KEY = "AIzaSyBYNFa6GM-5Qve7a5KWkKmilCi8tYAD3xk"
 
 SUPPORTED_IMAGE_TYPES = ["image/png", "image/jpeg", "image/webp"]
 SUPPORTED_CAD_TYPES = [
